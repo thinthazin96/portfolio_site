@@ -5,6 +5,6 @@ from django.http import HttpResponse
 # Create your views here.
 # Create your views here.
 def home(request):
-    return render(request, 'quote_generator/home.html')
+    return render(request, 'quote_generator/index.html')
 def about(request):
     return render(request, 'quote_generator/about.html')
